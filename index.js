@@ -11,7 +11,7 @@ app.post("/voice", async (req, res) => {
   try {
     const userText = req.body?.message || "Hello";
 
-    const reply = `You said ${userText}`;
+    const reply =  ${userText};
 
     // Sarvam TTS
     const response = await axios.post(
